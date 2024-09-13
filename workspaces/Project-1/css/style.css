@@ -2,33 +2,29 @@
 
 h1 {
     font-size: 80px;
+    text-decoration: none;
+    margin-bottom: 0;
     
 }
 
 h2 {
     font-size: 50px;
+    text-decoration: none;
+    margin-top: 0;
     
 }
 
+a {
+    text-decoration: none;
+}
 .headerbar {
-    height: 200px;
+    height: 150px;
     background-color: aqua;
 }
 
-.headings {
-    width:50% ;
-    float: left;
-    text-align: center;
-    
-    
-}
 
-.navbuttons {
-    width:50%;
-    float: left;
-    font-size: 30px;
-    
-}
+
+
 
 .bodyimage {
     height: 700px;
