@@ -1,0 +1,78 @@
+
+body {
+   margin: 0;
+   
+    }
+h1 {
+    font-size: 400%;
+    text-decoration: none;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald" sans-serif;
+    font-weight: 200;  
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 250%;
+    text-decoration: none;
+    margin-top: -10px;
+    font-family: "Oswald" sans-serif;
+    font-weight: 200;  
+    letter-spacing: 1px;
+    margin-bottom: -10px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+.headerbar {
+    height: 150px;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+ 
+        
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+.navbuttons {
+    display: inline-block;
+    float: right;
+}
+
+.bodyimage {
+    height: 700px;
+    background-color: black;
+    
+}
+
+.footerbreak {
+    height: 100px;
+    background-color: blue;
+}
+
+
+#navmenu li {
+    float: right;
+    list-style-type: none;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    background-color: blue;
+    font-size: 150%;
+}
+
+
+
+
+
+
+
