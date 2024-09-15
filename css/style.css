@@ -70,6 +70,14 @@ a {
     
 }
 
+.githublogo {
+    height: 145px;
+}
+
+.linkedinimage {
+    height: 145px;
+}
+
 
 #navmenu li {
     float: right;
