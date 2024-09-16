@@ -62,15 +62,19 @@ a {
     height: 160px;
     background-color: blue;
     margin-bottom: 0;
+    text-align: right;
     
 }
 
 .githublogo {
     height: 145px;
+    float:left;
 }
 
 .linkedinimage {
     height: 145px;
+    float:right;
+    
 }
 
 
@@ -94,11 +98,17 @@ a {
 
 .formelement {
     line-height: 35px;
+    width:50%;
+    float: left;
+    
+
 }
 
-.form {
-    float: right;
-}
+
+
+
+
+
 
 
 
