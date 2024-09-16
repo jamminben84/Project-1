@@ -7,7 +7,6 @@ body {
 h1 {
     font-size: 400%;
     text-decoration: none;
-    margin-bottom: 0;
     padding: 0;
     margin: 0;
     font-family: "Oswald" sans-serif;
@@ -35,7 +34,7 @@ a {
 .headerbar {
     height: 150px;
     background-color: aqua;
-    margin: 0;
+    margin-top: -16px;
     padding: 0;
     padding-bottom: 0;
     
@@ -60,8 +59,9 @@ a {
 }
 
 .footerbreak {
-    height: 150px;
+    height: 160px;
     background-color: blue;
+    margin-bottom: 0;
     
 }
 
@@ -89,6 +89,15 @@ a {
     width: 30%;
     height: 50%;
     margin-top: 170px;
+}
+
+
+.formelement {
+    line-height: 35px;
+}
+
+.form {
+    float: right;
 }
 
 
