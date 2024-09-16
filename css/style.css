@@ -62,7 +62,7 @@ a {
     height: 160px;
     background-color: blue;
     margin-bottom: 0;
-    text-align: right;
+    
     
 }
 
@@ -99,10 +99,29 @@ a {
 .formelement {
     line-height: 35px;
     width:50%;
-    float: left;
+    float:left;
     
-
 }
+
+.form {
+    background-color:green;
+    width: 50%;
+    height:140px ;
+    text-align: center;
+    
+}
+
+.inputfield {
+    display: inline-block;
+    float:right;
+    
+}
+
+.submit {
+    display:inline-block;
+    float: center;
+}
+
 
 
 
