@@ -99,12 +99,12 @@ a {
 .formelement {
     line-height: 35px;
     width:50%;
-    float:left;
+    float: left;
     
 }
 
 .form {
-    background-color:green;
+    background-color:blue ;
     width: 50%;
     height:140px ;
     text-align: center;
@@ -122,6 +122,17 @@ a {
     float: center;
 }
 
+.githublogospan {
+    float:left;
+    width: 38%;
+
+}
+
+.linkedinimagespan {
+    float:right;
+    width: 10%;
+
+}
 
 
 
