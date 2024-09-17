@@ -1,13 +1,14 @@
-
-body {
-   margin: 0;
-   
-   
-    }
-h1 {
-    font-size: 400%;
-    text-decoration: none;
+/*Header div*/
+.headerbar {
+    height: 150px;
+    background-color: #D4D6B9;
     padding: 0;
+    padding-bottom: 0;
+    }
+/*Top logo text in header*/
+h1 {
+    font-size: 300%;
+    text-decoration: none;
     margin: 0;
     font-family: "Oswald" sans-serif;
     font-weight: 200;  
@@ -19,7 +20,7 @@ h1 {
 h2 {
     font-size: 250%;
     text-decoration: none;
-    margin-top: 0;
+    margin-top: -10px;
     font-family: "Oswald" sans-serif;
     font-weight: 200;  
     letter-spacing: 1px;
@@ -27,66 +28,76 @@ h2 {
     color: black;
 }
 
+.logo {
+     float: left;
+     margin-top:16px;
+     border-style: solid;
+     height: 100px;
+     background-color: #48BEFF;
+     text-align: left;
+     margin-left: 20px;
+     margin-right: 10px;
+    
+    }
+
+    .navdiv {
+        margin-top: 30px;
+        width: 40%;
+        float: right;
+        margin-right: -10px;
+        height: 100px;
+        margin-top: 1px;
+        
+        
+
+    }
+    
+    #navmenu li {
+        float: right;
+        list-style-type: none;
+        letter-spacing: 2px;
+        margin-right: 30px;
+        font-size: 170%;
+        border: solid;
+        line-height: 40px;
+        background-color: #48BEFF
+        }
+
+
 a {
     text-decoration: none;
     color: black;
 }
-.headerbar {
-    height: 150px;
-    background-color: aqua;
-    margin-top: -16px;
-    padding: 0;
-    padding-bottom: 0;
-    
- 
-        
-}
-
-.logo {
-    display: inline-block;
-    float: left;
-    
-}
-
-
-
+/*body div container*/
 .bodyimage {
     height: 700px;
-    background-color: black;
+    background-color:#384E77;
     text-align: center;
     display: block;
     margin: auto;
 }
 
 .footerbreak {
-    height: 160px;
-    background-color: blue;
+    height: 100px;
+    background-color: #D1CAA1;
     margin-bottom: 0;
     
     
 }
 
 .githublogo {
-    height: 145px;
+    height: 100px;
     float:left;
 }
 
 .linkedinimage {
-    height: 145px;
+    height: 100px;
     float:right;
     
 }
 
 
-#navmenu li {
-    float: right;
-    list-style-type: none;
-    letter-spacing: 2px;
-    margin-right: 30px;
-    font-size: 150%;
-    float: right;
-    line-height: 50px;
-}
+
 
 
 .bodyimage img {
@@ -96,41 +107,35 @@ a {
 }
 
 
-.formelement {
-    line-height: 35px;
-    width:50%;
-    float: left;
-    
-}
 
 .form {
-    background-color:blue ;
-    width: 50%;
-    height:140px ;
-    text-align: center;
-    
+    background-color:#48BEFF;
+    width: 15%;
+    height: 80px;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 .inputfield {
-    display: inline-block;
-    float:right;
+    float: right;
     
 }
 
-.submit {
-    display:inline-block;
-    float: center;
-}
 
 .githublogospan {
-    float:left;
-    width: 38%;
+    float:right;
+    width: 8%;
+    height: 100px;
+    margin-right: -15px;
 
 }
 
 .linkedinimagespan {
     float:right;
     width: 10%;
+    height: 100px;
 
 }
 
