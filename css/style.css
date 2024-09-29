@@ -38,6 +38,7 @@ h2 {
      margin-left: 20px;
      margin-right: 10px;
      border-color:#6C6F7F ;
+     border-radius: 25px;
     
     }
 
@@ -65,13 +66,30 @@ h2 {
         background-color: #313E50;
         color: black;
         margin-top: 30px;
+        border-radius: 25px;
+        }
+
+        p {
+            font-family: "Oswald" sans-serif;
+    font-weight: 200;  
+    text-transform: capitalize;
         }
 
 
 a {
     text-decoration: none;
     color: #F7F7FF;
+    font-family: "Oswald" sans-serif;
+    font-weight: 200;  
+    text-transform: capitalize;
+
+    
 }
+
+a:hover {
+    color: #6C6F7F;
+  }
+
 /*body div container*/
 .bodyimage {
     height: 600px;
@@ -105,20 +123,30 @@ a {
 
 .contact {
     text-align: center;
-    width: 200px;
+    width: 300px;
     color: #F7F7FF;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 90%;
+    border-style: solid;
+    border-color:#6C6F7F;
+    border-radius: 25px;
+    
+
     
     
 }
 
 .contact h4 {
-    margin-bottom: -10px;
+    margin-bottom: -15px;
+    font-size: 130%;
+    margin-top: 2px;
+    
 }
 
 .contact a {
     color: #6C6F7F;
+    
 }
 
 .githubimage {
@@ -131,6 +159,13 @@ a {
     width: 100px;
     height: 100px;
 
+}
+
+
+.contact h5 {
+    margin-bottom: 1px;
+    margin-top: -15px;
+    font-size: 120%;
 }
 
 
