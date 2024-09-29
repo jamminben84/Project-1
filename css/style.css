@@ -7,7 +7,7 @@
     }
 /*Top logo text in header*/
 h1 {
-    font-size: 300%;
+    font-size: 280%;
     text-decoration: none;
     margin: 0;
     font-family: "Oswald" sans-serif;
@@ -39,6 +39,7 @@ h2 {
      margin-right: 10px;
      border-color:#6C6F7F ;
      border-radius: 25px;
+     padding: 10px;
     
     }
 
@@ -67,6 +68,7 @@ h2 {
         color: black;
         margin-top: 30px;
         border-radius: 25px;
+        padding: 2px;
         }
 
         p {
