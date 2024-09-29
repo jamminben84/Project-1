@@ -85,41 +85,53 @@ a {
     height: 150px;
     background-color: #313E50;
     margin-bottom: 0;
-    
-    
-}
-
-.githublogo {
-    height: 100px;
-    float:left;
-}
-
-.linkedinimage {
-    height: 100px;
-    float:right;
+    display: flex;                  
+  flex-direction: row;            
+  flex-wrap:wrap;            
+  justify-content:center;
+  align-items: center;
     
 }
-
-
-
-
 
 .bodyimage img {
-    width: 30%;
+    width: 20%;
     height: 50%;
     margin-top: 170px;
     border: solid;
     border-color: #313E50;
+    border-radius: 50%;
 }
 
 
 .contact {
-    float: center;
-    max-width: fit-content;
     text-align: center;
-    width: 60%;
+    width: 200px;
+    color: #F7F7FF;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
 }
 
+.contact h4 {
+    margin-bottom: -10px;
+}
+
+.contact a {
+    color: #6C6F7F;
+}
+
+.githubimage {
+    width: 100px;
+    height: 100px;
+
+}
+
+.linkedinimage {
+    width: 100px;
+    height: 100px;
+
+}
 
 
 
