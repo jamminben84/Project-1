@@ -129,10 +129,11 @@ a:hover {
     color: #F7F7FF;
     margin-left: 20px;
     margin-right: 20px;
-    height: 90%;
+    height: 60%;
     border-style: solid;
     border-color:#6C6F7F;
     border-radius: 25px;
+    margin-top: 10px;
     
 
     
@@ -146,10 +147,7 @@ a:hover {
     
 }
 
-.contact a {
-    color: #6C6F7F;
-    
-}
+
 
 .githubimage {
     width: 100px;
@@ -164,11 +162,17 @@ a:hover {
 }
 
 
-.contact h5 {
-    margin-bottom: 1px;
-    margin-top: -15px;
-    font-size: 120%;
+.sitemap {
+    
+   display: block;
+   text-align: center;
+   background-color: #313E50;
+   height: 20px;
 }
+
+
+
+
 
 
 
