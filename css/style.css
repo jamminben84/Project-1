@@ -154,6 +154,16 @@ a:hover {
         height:50px;
     }
 
+    .bodyimage img {
+        height:30% ;
+        width:30% ;
+        border-radius: 50%;
+    }
+
+    
+
+    
+
     
 }
 
@@ -163,6 +173,7 @@ a:hover {
     h1 {
         font-size: 1.5rem;
         color: #dbf688;
+        
     }
 
 
@@ -172,15 +183,22 @@ a:hover {
     }
 
     .logo {
-        height:50px;
+        height:40px;
     }
 
-    @media(max-width: 480px)
+    .bodyimage img {
+        height:20% ;
+        width:20% ;
+        border-radius: 50%;
+    }
 
-    
-
+    #navmenu {
+        font-size: 0.5rem;
+    }
 
 }
+
+
 
 
 
