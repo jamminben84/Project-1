@@ -16,7 +16,6 @@ h1 {
     letter-spacing: 2px;
     color: #F7F7FF;
 }
-
 h2 {
     font-size: 250%;
     text-decoration: none;
@@ -27,7 +26,6 @@ h2 {
     margin-bottom: 0;
     color: #F7F7FF;
 }
-
 .logo {
      float: left;
      margin-top:16px;
@@ -42,7 +40,6 @@ h2 {
      padding: 10px;
     
     }
-
     .navdiv {
         margin-top: 80px;
         width: 40%;
@@ -52,7 +49,6 @@ h2 {
         margin-top: 1px;
         
         
-
     }
     
     #navmenu li {
@@ -70,28 +66,22 @@ h2 {
         border-radius: 25px;
         padding: 2px;
         }
-
         p {
             font-family: "Oswald" sans-serif;
     font-weight: 200;  
     text-transform: capitalize;
         }
-
-
 a {
     text-decoration: none;
     color: #F7F7FF;
     font-family: "Oswald" sans-serif;
     font-weight: 200;  
     text-transform: capitalize;
-
     
 }
-
 a:hover {
     color: #6C6F7F;
   }
-
 /*body div container*/
 .bodyimage {
     height: 600px;
@@ -100,7 +90,6 @@ a:hover {
     display: block;
     margin: auto;
 }
-
 .footerbreak {
     height: 150px;
     background-color: #313E50;
@@ -112,7 +101,6 @@ a:hover {
   align-items: center;
     
 }
-
 .bodyimage img {
     width: 20%;
     height: 50%;
@@ -121,8 +109,6 @@ a:hover {
     border-color: #313E50;
     border-radius: 50%;
 }
-
-
 .contact {
     text-align: center;
     width: 300px;
@@ -135,33 +121,23 @@ a:hover {
     border-radius: 25px;
     margin-top: 10px;
     
-
     
     
 }
-
 .contact h4 {
     margin-bottom: -15px;
     font-size: 130%;
     margin-top: 2px;
     
 }
-
-
-
 .githubimage {
     width: 100px;
     height: 100px;
-
 }
-
 .linkedinimage {
     width: 100px;
     height: 100px;
-
 }
-
-
 .sitemap {
     
    display: block;
@@ -169,23 +145,21 @@ a:hover {
    background-color: #313E50;
    height: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*---------------------------------------------------------Media Queries------*/
+/* this one is when pages are under 992 px */
+@media(max-width: 992px) {
+    /* inside we target the rule and set it  */
+    /* for example to see it clearly i will target the h1 and make it smaller a different color */
+    h1 {
+        font-size: 2rem;
+        color: lightblue;
+    }
+}
+/* this one is when pages are under 768 px */
+@media(max-width: 768px) {
+    /* i will target h1 which will overwrite the above if under 768px */
+    h1 {
+        font-size: 1.5rem;
+        color: #dbf688;
+    }
+}
