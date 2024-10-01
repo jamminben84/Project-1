@@ -52,7 +52,7 @@ h2 {
         line-height: 40px;
         background-color: #313E50;
         color: black;
-        margin-top: 30px;
+        margin-top: 10px;
         border-radius: 25px;
         padding: 2px;
         }
@@ -217,7 +217,30 @@ a:hover {
         height: 75px;
     }
 
+    .portfoliolistcontainer {
+        justify-content: center;
+  align-items: center;
+  width: 100px;
+    }
+
+    .portfoliolisthelper li {
+        width: 400px;
+    }
+
+.portfoliolisthelper {
+    width: 550px;
 }
+
+    
+
+    
+    
+
+}
+
+/*Portfolio Page Media Queries*/
+
+
 
 /*Portfolio page*/
 
@@ -230,12 +253,11 @@ a:hover {
 }
 
 .portfoliolistcontainer {
-    
-    
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center; 
+  
 
 }
 
@@ -246,13 +268,14 @@ a:hover {
     align-items: center;
     
     
+    
 }
 
 .portfoliolisthelper ul {
     position: relative;
     top: -50%;
     margin: 0 auto;
-    width: 800px;
+    width: 600px;
     height: 400px;
     text-align: center;
     
@@ -261,11 +284,12 @@ a:hover {
 .portfoliolisthelper li {
     list-style: none;
     list-style-type: none;
-        letter-spacing: 2px;
-        margin-right: 30px;
-        font-size: 100%;
-        border: solid;
-        border-color:#313E50 ;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 100%;
+    border: solid;
+    border-color:#313E50 ;
         line-height: 40px;
         background-color:#6C6F7F ; 
         color: #F7F7FF;
