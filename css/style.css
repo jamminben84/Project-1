@@ -10,7 +10,7 @@ h1 {
     font-size: 280%;
     text-decoration: none;
     margin: 0;
-    font-family: "Oswald" sans-serif;
+    font-family: "oswald" sans-serif;
     font-weight: 200;  
     text-transform: capitalize;
     letter-spacing: 2px;
@@ -29,38 +29,38 @@ h2 {
 .logo {
      float: left;
      margin-top:16px;
-     border-style: solid;
      height: 100px;
      background-color: #313E50;
      text-align: left;
      margin-left: 20px;
      margin-right: 10px;
+     border-style: solid;
      border-color:#6C6F7F ;
      border-radius: 25px;
      padding: 10px;
-    
     }
     
-    #navmenu li {
-        float: right;
-        list-style-type: none;
-        letter-spacing: 2px;
-        margin-right: 30px;
-        font-size: 100%;
-        border: solid;
-        border-color:#6C6F7F ;
-        line-height: 40px;
-        background-color: #313E50;
-        color: black;
-        margin-top: 10px;
-        border-radius: 25px;
-        padding: 2px;
+#navmenu li {
+    float: right;
+    list-style-type: none;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    font-size: 100%;
+    border: solid;
+    border-color:#6C6F7F ;
+    line-height: 40px;
+    background-color: #313E50;
+    color: black;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 2px;
         }
-        p {
-            font-family: "Oswald" sans-serif;
-    font-weight: 200;  
-    text-transform: capitalize;
-        }
+
+p {
+    font-family: "Oswald" sans-serif;
+    font-weight: 200;
+    font-size: 130%;  
+    }
 a {
     text-decoration: none;
     color: #F7F7FF;
@@ -85,10 +85,10 @@ a:hover {
     background-color: #313E50;
     margin-bottom: 0;
     display: flex;                  
-  flex-direction: row;            
-  flex-wrap:wrap;            
-  justify-content:center;
-  align-items: center;
+   flex-direction: row;            
+   flex-wrap:wrap;            
+   justify-content:center;
+   align-items: center;
     
 }
 .bodyimage img {
@@ -110,16 +110,18 @@ a:hover {
     border-color:#6C6F7F;
     border-radius: 25px;
     margin-top: 10px;
-    
-    
-    
 }
+
 .contact h4 {
     margin-bottom: -15px;
     font-size: 130%;
-    margin-top: 2px;
-    
+    margin-top: 2px;    
 }
+
+.contact p {
+    font-size: 100%;
+}
+
 .githubimage {
     width: 100px;
     height: 100px;
@@ -128,25 +130,152 @@ a:hover {
     width: 100px;
     height: 100px;
 }
+
 .sitemap {
-    
-   display: block;
-   text-align: center;
-   background-color: #313E50;
-   height: 20px;
+    display: block;
+    text-align: center;
+    background-color: #313E50;
+    height: 20px;
 }
+
+/*Portfolio page*/
+
+.bodyport {
+    height: 600px;
+    background-color:#6C6F7F;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.portfoliolistcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.portfoliolisthelper {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.portfoliolisthelper ul {
+    position: relative;
+    top: -50%;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    }
+
+.portfoliolisthelper li {
+    list-style: none;
+    list-style-type: none;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 100%;
+    border: solid;
+    border-color:#313E50 ;
+    line-height: 40px;
+    background-color:#6C6F7F ; 
+    color: #F7F7FF;
+    margin-top: 30px;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+/*Body for biography page*/
+
+.bodybio {
+    height: 600px;
+    background-color:#6C6F7F;
+    justify-content: center;
+    }
+
+.aboutme {
+    width: 1000px;
+    height: 180px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #F7F7FF;
+    }
+
+.education {
+    width: 1000px;
+    height: 160px;
+    float: left;
+    margin-left: 50px;
+    color: #F7F7FF;
+    }
+
+.skills {
+    width: 1000px;
+    height: 180px;
+    float: left;
+    margin-left: 50px;
+    color: #F7F7FF;
+}
+
+.skills ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 130%;
+}
+
+.bodybio i {
+    font-size: 100px;
+}
+
+.aboutmeicondiv {
+    background-color: #6C6F7F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    border: solid;
+    border-color:#313E50
+    }
+
+.educationicon {
+    background-color: #6C6F7F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    border: solid;
+    border-color:#313E50
+}
+
+.skillsicon {
+    background-color: #6C6F7F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    border: solid;
+    border-color:#313E50;
+}
+
 /*---------------------------------------------------------Media Queries------*/
 
 @media(max-width: 992px) {
     
     h1 {
         font-size: 2rem;
-        
     }
 
     h2 {
         font-size: 1.5rem;
-        
     }
 
     .logo {
@@ -159,20 +288,51 @@ a:hover {
         border-radius: 50%;
     }
 
-    
+    /*--------Biography page media queries--------*/
 
-    
+    .bodybio i {
+        font-size: 80%;
+    }
 
-    
+    .skillsicon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+
+    .educationicon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+
+    .aboutmeicondiv {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+
+    p {
+        font-size: 100%;
+    }
+
+    .aboutme {
+        width: 600px;
+    }
+
+    .skills ul {
+        font-size: 100%;
+    }
+
+    .education {
+        height: 100px;
+    }
 }
-
 
 @media(max-width: 768px) {
     
     h1 {
         font-size: 1.5rem;
-        
-        
     }
 
 
@@ -206,22 +366,13 @@ a:hover {
         width: 75px;
         height:75px;
     }
-
     
-    
-
     .linkedinimage {
         width: 75px;
         height: 75px;
     }
 
     /*Portfolio Page Media Queries*/
-
-    .portfoliolistcontainer {
-        justify-content: center;
-  align-items: center;
-  width: 100px;
-    }
 
     .portfoliolisthelper li {
         width: 400px;
@@ -230,170 +381,91 @@ a:hover {
 .portfoliolisthelper {
     width: 550px;
 }
-
-    
-
-    
-    
-
-}
-
-
-
-
-
-/*Portfolio page*/
-
-.bodyport {
-    height: 600px;
-    background-color:#6C6F7F;
-    text-align: center;
-    display: block;
-    margin: auto;
-}
-
 .portfoliolistcontainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  
+    display: block;
+    width: 100px;
 
 }
 
-.portfoliolisthelper {
-    position: absolute;
-    top: 50%;
-    display: flex;
-    align-items: center;
-    
-    
-    
-}
+@media(max-width: 400px) {
 
-.portfoliolisthelper ul {
-    position: relative;
-    top: -50%;
-    margin: 0 auto;
-    width: 600px;
-    height: 400px;
-    text-align: center;
+    .githubimage {
+        width: 50px;
+        height:50px;
+    }
+    
+    .linkedinimage {
+        width: 50px;
+        height: 50px;
     }
 
-.portfoliolisthelper li {
-    list-style: none;
-    list-style-type: none;
-    letter-spacing: 2px;
-    margin-right: 30px;
-    margin-left: 30px;
-    font-size: 100%;
-    border: solid;
-    border-color:#313E50 ;
-        line-height: 40px;
-        background-color:#6C6F7F ; 
-        color: #F7F7FF;
-        margin-top: 30px;
-        border-radius: 25px;
-        padding: 2px;
-}
+    /*--------Biography page media queries--------*/
 
-/*Body for biography page*/
+    .bodybio i {
+        font-size: 80%;
+    }
 
-.bodybio {
-    height: 600px;
-    background-color:#6C6F7F;
-    
-    justify-content: center;
-    
-    
-    
-}
-
-.aboutme {
-    background-color: aquamarine;
-    width: 1000px;
-    height: 180px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 20px;
-    
-}
-
-.education {
-    background-color: aquamarine;
-    width: 1000px;
-    height: 180px;
-    float: left;
-    margin-left: 50px;
-    
-}
-
-.skills {
-    background-color: aquamarine;
-    width: 1000px;
-    height: 180px;
-    float: left;
-    margin-left: 50px;
-    
-
-    
-    
-}
-
-.skills ul {
-    list-style: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-
-}
-
-.bodybio i {
-    font-size: 100px;
-    
-    
-    
-}
-
-.aboutmeicondiv {
-    background-color: blanchedalmond;
-    width: 150px;
-    height: 150px;
+    .skillsicon {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    text-align: center;
-    float: left;
-    
-}
+    }
 
-.educationicon {
-    background-color: blanchedalmond;
-    width: 150px;
-    height: 150px;
+    .educationicon {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    text-align: center;
-    float: left;
-}
+    }
 
-.skillsicon {
-    background-color: blanchedalmond;
-    width: 150px;
-    height: 150px;
+    .aboutmeicondiv {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    text-align: center;
-    display: inline-block;
+    }
+
+    p {
+        font-size: 75%;
+    }
+
+    .aboutme {
+        width: 300px;
+    }
+
+    .skills {
+        width: 500px;
+        height: ;
+    }
+
+    .skills ul {
+        font-size: 75%;
+        width: 250px;
+    }
+
+    .education {
+        height: 100px;
+        width: 300px;
+    }
+
+    .bodybio i {
+        font-size: 60%;
+    }
+
+    .bodybio h4 {
+        font-size: 60%;
+    }
+
+    /*Portfolio Page Media Queries*/
+
+    .portfoliolistcontainer {
+        display: block;
+        width: 50px;
+    }
+
+    .portfoliolisthelper li {
+        width: 200px;
+    }
+
+.portfoliolisthelper {
+    width: 275px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 
