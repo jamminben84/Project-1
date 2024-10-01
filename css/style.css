@@ -231,12 +231,11 @@ a:hover {
 
 .portfoliolistcontainer {
     
-    display: table;
-  /*Reference stackoverflow 1:https://stackoverflow.com/questions/16078868/vertically-center-ul-in-div*/
-    height: 100%;
-  position: absolute;
-  overflow: hidden;
+    
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 
 }
 
@@ -246,6 +245,7 @@ a:hover {
     display: flex;
     align-items: center;
     
+    
 }
 
 .portfoliolisthelper ul {
@@ -253,9 +253,9 @@ a:hover {
     top: -50%;
     margin: 0 auto;
     width: 800px;
-    height: 800px;
+    height: 400px;
     text-align: center;
-    background-color: #dbf688;
+    
 }
 
 .portfoliolisthelper li {
