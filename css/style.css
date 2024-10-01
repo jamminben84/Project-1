@@ -195,8 +195,86 @@ a:hover {
     #navmenu {
         font-size: 0.5rem;
     }
+/*media query for contact section*/
+    .contact { 
+        width: 210px;
+    }
+
+    .contact h4 {
+        font-size:1rem;;
+    }
+
+    .githubimage {
+        width: 75px;
+        height:75px;
+    }
+
+    
+    
+
+    .linkedinimage {
+        width: 75px;
+        height: 75px;
+    }
 
 }
+
+/*Portfolio page*/
+
+.bodyport {
+    height: 600px;
+    background-color:#6C6F7F;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.portfoliolistcontainer {
+    
+    display: table;
+  /*Reference stackoverflow 1:https://stackoverflow.com/questions/16078868/vertically-center-ul-in-div*/
+    height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.portfoliolisthelper {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.portfoliolisthelper ul {
+    position: relative;
+    top: -50%;
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    background-color: #dbf688;
+}
+
+.portfoliolisthelper li {
+    list-style: none;
+    list-style-type: none;
+        letter-spacing: 2px;
+        margin-right: 30px;
+        font-size: 100%;
+        border: solid;
+        border-color:#313E50 ;
+        line-height: 40px;
+        background-color:#6C6F7F ; 
+        color: #F7F7FF;
+        margin-top: 30px;
+        border-radius: 25px;
+        padding: 2px;
+}
+
+
 
 
 
