@@ -298,6 +298,26 @@ a:hover {
         padding: 2px;
 }
 
+/*Body for biography page*/
+
+.bodybio {
+    height: 600px;
+    background-color:#6C6F7F;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.aboutme {
+    background-color: aquamarine;
+    width: 400px;
+    display: inline-block;
+}
+
+.aboutmeicon {
+    height: 50px;
+    width: 50px;
+}
 
 
 
