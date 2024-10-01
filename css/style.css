@@ -136,10 +136,9 @@ a:hover {
    height: 20px;
 }
 /*---------------------------------------------------------Media Queries------*/
-/* this one is when pages are under 992 px */
+
 @media(max-width: 992px) {
-    /* inside we target the rule and set it  */
-    /* for example to see it clearly i will target the h1 and make it smaller a different color */
+    
     h1 {
         font-size: 2rem;
         color: lightblue;
@@ -167,19 +166,18 @@ a:hover {
     
 }
 
-/* this one is when pages are under 768 px */
+
 @media(max-width: 768px) {
-    /* i will target h1 which will overwrite the above if under 768px */
+    
     h1 {
         font-size: 1.5rem;
-        color: #dbf688;
+        
         
     }
 
 
     h2 {
         font-size: 1.5rem;
-        color: #dbf688;
     }
 
     .logo {
@@ -217,6 +215,8 @@ a:hover {
         height: 75px;
     }
 
+    /*Portfolio Page Media Queries*/
+
     .portfoliolistcontainer {
         justify-content: center;
   align-items: center;
@@ -238,7 +238,7 @@ a:hover {
 
 }
 
-/*Portfolio Page Media Queries*/
+
 
 
 
