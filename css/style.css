@@ -433,7 +433,7 @@ a:hover {
 
     .skills {
         width: 500px;
-        height: ;
+        
     }
 
     .skills ul {
@@ -467,5 +467,6 @@ a:hover {
 
 .portfoliolisthelper {
     width: 275px;
+    }
+
 }
-} 
