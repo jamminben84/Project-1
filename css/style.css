@@ -387,6 +387,47 @@ a:hover {
 
 }
 
+/*--------Biography page media queries--------*/
+
+.bodybio i {
+    font-size: 70%;
+}
+
+.skillsicon {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+
+.educationicon {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+
+.aboutmeicondiv {
+width: 80px;
+height: 120px;
+border-radius: 50%;
+}
+
+p {
+    font-size: 80%;
+}
+
+.aboutme {
+    width: 600px;
+}
+
+.skills ul {
+    font-size: 100%;
+}
+
+.education {
+    height: 100px;
+}
+}
+
 @media(max-width: 400px) {
 
     .githubimage {
@@ -402,7 +443,7 @@ a:hover {
     /*--------Biography page media queries--------*/
 
     .bodybio i {
-        font-size: 80%;
+        font-size: 60%;
     }
 
     .skillsicon {
@@ -424,34 +465,34 @@ a:hover {
     }
 
     p {
-        font-size: 75%;
+        font-size: 55%;
     }
 
     .aboutme {
-        width: 300px;
+        width: 250px;
     }
 
     .skills {
-        width: 500px;
+        width: 400px;
         
     }
 
     .skills ul {
-        font-size: 75%;
-        width: 250px;
+        font-size: 65%;
+        width: 200px;
     }
 
     .education {
         height: 100px;
-        width: 300px;
+        width: 250px;
     }
 
     .bodybio i {
-        font-size: 60%;
+        font-size: 50%;
     }
 
     .bodybio h4 {
-        font-size: 60%;
+        font-size: 50%;
     }
 
     /*Portfolio Page Media Queries*/
