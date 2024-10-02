@@ -10,7 +10,7 @@ h1 {
     font-size: 280%;
     text-decoration: none;
     margin: 0;
-    font-family: "oswald" sans-serif;
+    font-family: "oswald",sans-serif;
     font-weight: 200;  
     text-transform: capitalize;
     letter-spacing: 2px;
@@ -20,7 +20,7 @@ h2 {
     font-size: 250%;
     text-decoration: none;
     margin-top: -10px;
-    font-family: "Oswald" sans-serif;
+    font-family: "oswald",sans-serif;
     font-weight: 200;  
     letter-spacing: 1px;
     margin-bottom: 0;
@@ -57,14 +57,14 @@ h2 {
         }
 
 p {
-    font-family: "Oswald" sans-serif;
+    font-family: "oswald",sans-serif;
     font-weight: 200;
     font-size: 130%;  
     }
 a {
     text-decoration: none;
     color: #F7F7FF;
-    font-family: "Oswald" sans-serif;
+    font-family: "oswald",sans-serif;
     font-weight: 200;  
     text-transform: capitalize;
     

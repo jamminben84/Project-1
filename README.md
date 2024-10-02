@@ -1,4 +1,5 @@
 # Ben Ashby Portfolio Project
+![alt text](<Screenshot 2024-10-02 at 11.06.29.png>)
 ## Target Audience And Purpose
 For this project I am going to create a personal portfolio website for potential employers to look at and for potential clients to gain paid work within web development. It will be primarily aimed at small businesses and sole traders to create affordable websites to promote and manage their business and also for social media businesses to create central points to send all of their clients from various social media platforms. 
 
@@ -9,7 +10,7 @@ For this project I am going to create a personal portfolio website for potential
 * As an employer I would like to see the potential applicant’s skills and knowledge with regards to front-end web development. 
 * As an employer i would like to see the applicant’s ability to create a fully responsive website suitable for use on all devices. 
 
-## User Eperience Design
+## User Experience Design
 ### Strategy
 
 This website will be used to help potential employers learn more about me and to link to demonstrations of my ability via my professional portfolio. Although I am yet to have a professional portfolio it will serve as a template for future projects to be linked too once i have finished my front-end web development course.
@@ -138,7 +139,9 @@ Page was tested using the following device specifications-
 
 ## Validation
 
-* All pages tested using Lighthouse providing a good score for all areas.
+* All pages tested using Lighthouse providing a good score for all area 
+![alt text](<Screenshot 2024-10-02 at 11.05.03.png>)s.
+
 * Tested using wave (  https://wave.webaim.org/ )
 
 ## Deployment
