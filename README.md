@@ -149,7 +149,7 @@ Go to the Settings tab (top left in the menu)
 Go to the left-hand section,under Code and automation click Pages.
 Go to Source under Build and deployment and use the dropdown menu to choose Deploy from a branch.
 Under Branch use the dropdown menu to select main and set the folder to root.
-The live link can be found via - 
+The live link can be found via - ( https://jamminben84.github.io/Project-1/ ) 
 
 ## Credits
 
