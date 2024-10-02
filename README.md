@@ -136,4 +136,29 @@ Page was tested using the following device specifications-
 * I-Pad pro.
 * 16 Inch screen lenovo thinkpad running google chrome.
 
+## Validation
+
+* All pages tested using Lighthouse providing a good score for all areas.
+* Tested using wave (  https://wave.webaim.org/ )
+
+## Deployment
+The Ben Ashby Portfolio site was deployed to GitHub pages, via the following steps:
+
+Go to the Project 1 repository.
+Go to the Settings tab (top left in the menu)
+Go to the left-hand section,under Code and automation click Pages.
+Go to Source under Build and deployment and use the dropdown menu to choose Deploy from a branch.
+Under Branch use the dropdown menu to select main and set the folder to root.
+The live link can be found via - 
+
+## Credits
+
+### Content
+* Icons were sourced from font awesome.
+
+### Media
+* Favicon was used to source the fav-icon for the tab.
+* unsplash was used to soruce images for the site.
+* coolors was used to find a matching color pallette for the site.
+
 
