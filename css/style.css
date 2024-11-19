@@ -1,9 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: -16px;
+    margin-bottom: 10px;
+}
+
 /*Header div*/
 .headerbar {
     height: 150px;
     background-color: #313E50;
     padding: 0;
     padding-bottom: 0;
+    margin-top: 0;
     }
 /*Top logo text in header*/
 h1 {
@@ -77,14 +85,17 @@ a:hover {
 main {
     
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 0px;
  
 }
 
 #bodyimage {
     height: 600px;
     width: 100%;
-    background: url("../assets/images/heroimage.jpg") no-repeat center center/cover; 
+    background-image: url("../assets/images/heroimage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh; 
 }
 
 
