@@ -72,14 +72,21 @@ a {
 a:hover {
     color: #6C6F7F;
   }
-/*body div container*/
-.bodyimage {
+/*body main*/
+
+main {
     height: 600px;
-    background-color:#6C6F7F;
-    text-align: center;
-    display: block;
-    margin: auto;
+    flex: 1 0 auto;
+    margin-top: 47px;
+ 
 }
+
+#bodyimage {
+    height: 600px;
+    width: 100%;
+    background: url("assets/images/heroimage.jpg") no-repeat center center/cover;
+}
+
 .footerbreak {
     height: 150px;
     background-color: #313E50;
