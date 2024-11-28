@@ -143,6 +143,7 @@ Page was tested using the following device specifications-
 ![alt text](<Screenshot 2024-10-02 at 11.05.03.png>)s.
 
 * Tested using wave (  https://wave.webaim.org/ )
+* Tested with bo faults with Jigsaw ( http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fjamminben84.github.io%2FProject-1%2F&usermedium=all&vextwarning=&warning=1)
 
 ## Deployment
 The Ben Ashby Portfolio site was deployed to GitHub pages, via the following steps:
