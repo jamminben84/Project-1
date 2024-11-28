@@ -213,19 +213,17 @@ main {
     }
 
 .aboutme {
-    margin-left: 50px;
-    margin-top: 20px;
     color: #F7F7FF;
+    height: 200px;
+    width: 100%;
+    margin-top: -50px;
+    line-height: 50px;
     }
 
-.education {
-    margin-left: 50px;
-    color: #F7F7FF;
+    .aboutme p {
+    font-weight: 100;
+      
     }
-
-
-
-
 
 /*---------------------------------------------------------Media Queries------*/
 
@@ -233,16 +231,9 @@ main {
     
     /*--------Biography page media queries--------*/
 
-    
-
-    
-    }
-
     p {
         font-size: 100%;
     }
-
-   
 }
 
 @media(max-width: 768px) {
@@ -254,6 +245,7 @@ main {
 
     .contact h4 {
         font-size:1rem;
+        
     }
 
     .githubimage {
@@ -283,17 +275,11 @@ main {
 
 /*--------Biography page media queries--------*/
 
-
-
-
-
 p {
     font-size: 80%;
 }
 
-
 }
-
 
 @media(max-width: 400px) {
 
@@ -313,29 +299,21 @@ p {
         padding: 2px;
             }
 
-    .githubimage {
-        width: 30px;
-        height:30px;
-    }
-    
-    .linkedinimage {
-        width: 30px;
-        height: 30px;
-    }
+        .githubimage {
+                width: 50px;
+                height: 50px;
+            }
+            
+        .linkedinimage {
+                width: 50px;
+                height: 50px;
+            }
 
     /*--------Biography page media queries--------*/
-
-    
-
-    
 
     p {
         font-size: 55%;
     }
-
-    
-
-    
 
     /*Portfolio Page Media Queries*/
 
