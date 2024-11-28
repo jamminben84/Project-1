@@ -87,7 +87,7 @@ The website will feature a simple structure starting from the home page and navi
 
  ## Skeleton
 
-![Rough Wireframe Of Homepage](<assets/images/New Wireframe 1.png>)
+![Rough Wireframe Of Homepage](<assets/images/sitewireframe.png>)
 
 ## Overall Features
 
@@ -142,8 +142,9 @@ Page was tested using the following device specifications-
 * All pages tested using Lighthouse providing a good score for all area 
 ![alt text](<Screenshot 2024-10-02 at 11.05.03.png>)s.
 
-* Tested using wave (  https://wave.webaim.org/ )
-* Tested with bo faults with Jigsaw ( http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fjamminben84.github.io%2FProject-1%2F&usermedium=all&vextwarning=&warning=1)
+* Tested using wave with no errors (  https://wave.webaim.org/ )
+* Tested with no errors with Jigsaw ( http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fjamminben84.github.io%2FProject-1%2F&usermedium=all&vextwarning=&warning=1)
+* Tested using W3c validator with no errors ( https://validator.w3.org/)
 
 ## Deployment
 The Ben Ashby Portfolio site was deployed to GitHub pages, via the following steps:
