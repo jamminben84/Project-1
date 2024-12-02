@@ -2,67 +2,48 @@
 ![alt text](<Screenshot 2024-10-02 at 11.06.29.png>)
 ## Target Audience And Purpose
 For this project I am going to create a personal portfolio website for potential employers to look at and for potential clients to gain paid work within web development. It will be primarily aimed at small businesses and sole traders to create affordable websites to promote and manage their business and also for social media businesses to create central points to send all of their clients from various social media platforms. 
-
 ### User Stories 
-
 * As an employer I need to be able to view a biography, previous projects and be able to contact the person whose website I am viewing. 
 * As an employer I need the website navigation to be clear and concise. 
 * As an employer I would like to see the potential applicant’s skills and knowledge with regards to front-end web development. 
 * As an employer i would like to see the applicant’s ability to create a fully responsive website suitable for use on all devices. 
-
 ## User Experience Design
 ### Strategy
-
 This website will be used to help potential employers learn more about me and to link to demonstrations of my ability via my professional portfolio. Although I am yet to have a professional portfolio it will serve as a template for future projects to be linked too once i have finished my front-end web development course.
-
 ### Considerations
 The project will be aimed at business and employers primarily so will be a corporate and professional business culture. I will contact some small business owners and also companies and conduct some interviews regarding what they would ideally like to see on a website such as mine to gain insight into what would attract these small business and employers and to help potentially develop a pay structure. I will also write some stories of potential users and what they feel they may be looking for in a website. 
-
 ### Business Goals
-
-* To gain full-time employment in the field of full stack web development. 
-* To gain clients for small business and sole trader web design. 
-
+* To gain full-time employment in the field of full stack web development.  
 ### User Stories
-
 As an employer using this website to judge Mr. Ashby’s potential and suitability regarding employability i am looking for: 
 * Clear and concise information detailing potential employee’s skills and experience that is relevant to the target position.
 * Employment history and personal information. 
-* Details of projects completed and links to said projects within the portfolio. Must also be easy to find within the page. 
-* Downloadable curriculum vitae.  
-
+* Details of projects completed and links to said projects within the portfolio. Must also be easy to find within the page.
+* Downloadable CV. 
 As a user who is a sole-trader/small business owner looking for someone to build a website I am looking for: 
-* Employment history and personal information. 
-* Details of projects completed and links to said projects within the portfolio. Must also be easy to find within the page. 
-* Downloadable curriculum vitae.  
-
-As it is a predominantly business to business-based website there are a number of considerations I must take into account.  
-
+* Personal information. 
+* Details of projects completed and links to said projects within the portfolio. Must also be easy to find within the page.
+*Downloadable CV. 
+  As it is a predominantly business to business-based website there are a number of considerations I must take into account.  
 My day-to-day role is going to be a web developer so any personal information will be relevant to this role. The functions i would like it to perform will be: 
 * Display information about myself to employers. 
-* Display links to my portfolio 
-* Provide a downloadable CV 
+* Display links to my portfolio  
 * Display my skills as a web developer through clean, attractive and simple yet functional design. 
-
+* Downloadable CV
 The technology that will be used to perform these functions will be from using: 
 
 * Wireframe design technology for planning. 
 * CSS 
 * HTML 
-* Bootstrap 
 * Google fonts 
 * Font awesome 
-
- ### Trade Off Strategy
-
- * Provide easy to find links to my portfolio – Importance: 5 Viability/Feasibility: 5 
+### Trade Off Strategy
+* Provide easy to find links to my portfolio – Importance: 5 Viability/Feasibility: 5 
 * Provide a downloadable cv - Importance: 5 Viability/Feasibility: 5 
 * Provide information on myself to potential employers: Importance: 5 Viability/Feasibility: 5 
 * Provide a cost structure for small business clients: Importance: 3 Viability/Feasibility: 2 
 * Demonstrate attractive and simple design - Importance: 5 Viability/Feasibility: 4 
-
 ## Scope
-
 After reviewing my UAX strategy section I have developed and refined my original goals and aims for my project. I believe there is a conflict regarding my original idea of having both a website for using as a portfolio for potential employers and as a site for small business owners to pay for production of websites for business. This leads to a big decision regarding what trade-offs are on the table.  A choice needs to be made regarding having a website with a dual aim of gaining employment and gaining clients for website projects being carried out by myself and just using the site for the singular purpose of gaining employment in the front-end web development sector. 
 
 I have decided that the project will focus on building a website with the sole use of displaying my portfolio to hopefully gain employment with an employer. There are a number of factors that have led to this decision due to both practical and scalability issues: 

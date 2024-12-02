@@ -46,6 +46,11 @@ h2 {
     margin-bottom: 0;
     color: #F7F7FF;
 }
+h3 {
+    font-family: "oswald",sans-serif;
+    font-weight: 100;
+    font-size: 130%; 
+}
 #navmenu li {
     float: right;
     list-style-type: none;
@@ -193,6 +198,18 @@ main {
 .aboutme p {
     font-weight: 100;
       }
+.download_cv_button {
+    letter-spacing: 2px;
+    font-size: 100%;
+    border: solid;
+    border-color:#313E50; ;
+    background-color:#6C6F7F;
+    color: black;
+    margin-top: 15px;
+    border-radius: 25px;
+    padding: 2px;
+}
+
 /*---------------------------------------------------------Media Queries------*/
 @media(max-width: 992px) {
     /*--------Biography page media queries--------*/
