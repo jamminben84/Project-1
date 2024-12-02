@@ -1,5 +1,5 @@
 # Ben Ashby Portfolio Project
-![alt text](<Screenshot 2024-10-02 at 11.06.29.png>)
+![alt text](<assets/images/mockupwebsite .png>)
 ## Target Audience And Purpose
 For this project I am going to create a personal portfolio website for potential employers to look at and for potential clients to gain paid work within web development. It will be primarily aimed at small businesses and sole traders to create affordable websites to promote and manage their business and also for social media businesses to create central points to send all of their clients from various social media platforms. 
 ### User Stories 
@@ -100,48 +100,41 @@ The colours were decieded and used from ( https://coolors.com )
 The fonts used were Oswald and Sans serif. These were selected from google fonts. ( https://fonts.google.com/ )
 
 ### Images
-![Linkedin icon](assets/images/317750_linkedin_icon.png)
+![Linkedin icon](assets/images/linkedinicon.png)
 Linkedin icon used from linkedin.
-![Webdev image](<assets/images/chen-Qtu3hGinLF8-unsplash (1).jpg>)
-![alt text](assets/images/ferenc-almasi-hMYODfDWs9M-unsplash.jpg)
-![alt text](assets/images/webcoding.jpg)
 Images used from unsplash( https://unsplash.com )
 Image used from github [Github logo] (assets/images/github-logo.png)
 Image used from ( https://www.favicon-generator.org/ ) ![Favicon Icon](assets/images/favicon.jpg)
 ### Icons
 All icons have been used from Font awesome ( https://fontawesome.com/ )
-
 ## Testing
-
 Page was tested using the following device specifications-
 * I-Phone 12 pro.
 * I-Pad pro.
 * 16 Inch screen lenovo thinkpad running google chrome.
-
 ## Validation
-
-* All pages tested using Lighthouse providing a good score for all area 
-![alt text](<Screenshot 2024-10-02 at 11.05.03.png>)s.
-
 * Tested using wave with no errors (  https://wave.webaim.org/ )
 * Tested with no errors with Jigsaw ( http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fjamminben84.github.io%2FProject-1%2F&usermedium=all&vextwarning=&warning=1)
 * Tested using W3c validator with no errors ( https://validator.w3.org/)
-
+* Tested with lighthouse ![lighthouse score](<assets/images/lighthouse_score.png>)
+### User Stories
+The following user stories I believe were met by the final site. 
+* As an employer I need to be able to view a biography, previous projects and be able to contact the person whose website I am viewing.![project links image](<assets/images/projects.png>)
+![download cv image](<assets/images/download_cv.png>)
+* As an employer I need the website navigation to be clear and concise. 
+![navigation bar image](<assets/images/navigation_bar.png>)
+* As an employer I would like to see the potential applicant’s skills and knowledge with regards to front-end web development. 
+* As an employer i would like to see the applicant’s ability to create a fully responsive website suitable for use on all devices. ![lighthouse_score](<assets/images/mockupwebsite .png>)
 ## Deployment
 The Ben Ashby Portfolio site was deployed to GitHub pages, via the following steps:
-
 Go to the Project 1 repository.
 Go to the Settings tab (top left in the menu)
 Go to the left-hand section,under Code and automation click Pages.
 Go to Source under Build and deployment and use the dropdown menu to choose Deploy from a branch.
 Under Branch use the dropdown menu to select main and set the folder to root.
 The live link can be found via - ( https://jamminben84.github.io/Project-1/ ) 
-
-## Credits
-
 ### Content
 * Icons were sourced from font awesome.
-
 ### Media
 * Favicon was used to source the fav-icon for the tab.
 * unsplash was used to soruce images for the site.
