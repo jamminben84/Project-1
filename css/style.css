@@ -4,9 +4,7 @@ body {
     margin-top: -16px;
     margin-bottom: 10px;
 }
-
 /*Header div*/
-
 header {
     padding: 0 1rem;
     z-index: 99;
@@ -14,9 +12,7 @@ header {
     height: 160px;
     background-color: #313E50;
 }
-
 /*Top logo text in header*/
-
 .logo {
     float: left;
     margin-top:30px;
@@ -30,7 +26,6 @@ header {
     border-radius: 25px;
     padding: 0;
    }
-
 h1 {
     font-size: 150%;
     text-decoration: none;
@@ -41,7 +36,6 @@ h1 {
     letter-spacing: 1px;
     color: #F7F7FF;
 }
-
 h2 {
     font-size: 150%;
     text-decoration: none;
@@ -52,7 +46,6 @@ h2 {
     margin-bottom: 0;
     color: #F7F7FF;
 }
-
 #navmenu li {
     float: right;
     list-style-type: none;
@@ -68,13 +61,11 @@ h2 {
     border-radius: 25px;
     padding: 2px;
     }
-
 p {
     font-family: "oswald",sans-serif;
     font-weight: 200;
     font-size: 130%;  
     }
-
 a {
     text-decoration: none;
     color: #F7F7FF;
@@ -82,18 +73,14 @@ a {
     font-weight: 200;  
     text-transform: capitalize;
 }
-
 a:hover {
     color: #6C6F7F;
 }
-
-  /*body main*/
-
+/*body main*/
 main {
     flex: 1 0 auto;
     margin-top: 0px;
  }
-
 #bodyimage {
     height: 600px;
     width: 100%;
@@ -102,7 +89,6 @@ main {
     background-size: 100% 100%;
     min-height: 100vh; 
 }
-
 .footerbreak {
     height: 150px;
     background-color: #313E50;
@@ -113,7 +99,6 @@ main {
     justify-content:center;
     align-items: center;
 }
-
 .contact {
     text-align: center;
     width: 300px;
@@ -126,36 +111,29 @@ main {
     border-radius: 25px;
     margin-top: 10px;
 }
-
 .contact h3 {
     margin-bottom: -15px;
     font-size: 130%;
     margin-top: 2px;    
 }
-
 .contact p {
     font-size: 100%;
 }
-
 .githubimage {
     width: 100px;
     height: 100px;
 }
-
 .linkedinimage {
     width: 100px;
     height: 100px;
 }
-
 .sitemap {
     display: block;
     text-align: center;
     background-color: #313E50;
     height: 30px;
 }
-
 /*Portfolio page*/
-
 .bodyport {
     height: 600px;
     background-color:#6C6F7F;
@@ -163,21 +141,18 @@ main {
     display: block;
     margin: auto;
 }
-
 .portfoliolistcontainer {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
 }
-
 .portfoliolisthelper {
     position: absolute;
     top: 50%;
     display: flex;
     align-items: center;
 }
-
 .portfoliolisthelper ul {
     position: relative;
     top: -50%;
@@ -186,7 +161,6 @@ main {
     height: 400px;
     text-align: center;
     }
-
 .portfoliolisthelper li {
     list-style: none;
     list-style-type: none;
@@ -203,15 +177,12 @@ main {
     border-radius: 25px;
     padding: 2px;
 }
-
 /*Body for biography page*/
-
 .bodybio {
     height: 600px;
     background-color:#6C6F7F;
     text-align: center;
     }
-
 .aboutme {
     color: #F7F7FF;
     height: 200px;
@@ -219,71 +190,50 @@ main {
     margin-top: -50px;
     line-height: 50px;
     }
-
-    .aboutme p {
+.aboutme p {
     font-weight: 100;
-      
-    }
-
+      }
 /*---------------------------------------------------------Media Queries------*/
-
 @media(max-width: 992px) {
-    
     /*--------Biography page media queries--------*/
-
-    p {
+p {
         font-size: 100%;
     }
 }
-
 @media(max-width: 768px) {
-    
-/*media query for contact section*/
-    .contact { 
+    /*media query for contact section*/
+.contact { 
         width: 210px;
     }
-
-    .contact h4 {
+.contact h4 {
         font-size:1rem;
-        
     }
-
-    .githubimage {
+.githubimage {
         width: 75px;
         height:75px;
     }
-    
-    .linkedinimage {
+.linkedinimage {
         width: 75px;
         height: 75px;
     }
-
-    /*Portfolio Page Media Queries*/
-
-    .portfoliolisthelper li {
+/*Portfolio Page Media Queries*/
+.portfoliolisthelper li {
         width: 400px;
     }
-
 .portfoliolisthelper {
     width: 550px;
 }
 .portfoliolistcontainer {
     display: block;
     width: 100px;
-
 }
-
 /*--------Biography page media queries--------*/
-
 p {
     font-size: 80%;
 }
-
 }
-
 @media(max-width: 400px) {
-
-    #navmenu li {
+#navmenu li {
         float: right;
         list-style-type: none;
         letter-spacing: 2px;
@@ -298,36 +248,27 @@ p {
         border-radius: 25px;
         padding: 2px;
             }
-
-        .githubimage {
+.githubimage {
                 width: 50px;
                 height: 50px;
             }
-            
-        .linkedinimage {
+.linkedinimage {
                 width: 50px;
                 height: 50px;
             }
-
-    /*--------Biography page media queries--------*/
-
-    p {
+/*--------Biography page media queries--------*/
+p {
         font-size: 55%;
     }
-
-    /*Portfolio Page Media Queries*/
-
-    .portfoliolistcontainer {
+/*Portfolio Page Media Queries*/
+.portfoliolistcontainer {
         display: block;
         width: 50px;
     }
-
-    .portfoliolisthelper li {
+.portfoliolisthelper li {
         width: 200px;
     }
-
 .portfoliolisthelper {
     width: 275px;
     }
-
 }
